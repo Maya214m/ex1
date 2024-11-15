@@ -20,7 +20,7 @@ int main() {
   
   int bit = (number >> position) & 1;
   // what bit in the position of the number
-  printf("The bit in position %d of number %d is: %d\n", position, number, bit);
+  printf("The bit in position %d of number %d is: %d", position, number, bit);
   
   
   
