@@ -8,11 +8,23 @@ Assignment:
 // REMIDER : YOU CANT USE ANY CONTROL FLOW OPERATIONS OR FUNCTIONS, ONLY BITWISE.
 
 int main() {
+  int number, position;
+ 
+  // Asking the user to enter a number
+  printf("Please enter a number:\n");
+  scanf("%d", &number);
   
-  // What bit
-  printf("What bit:\n");
-  /*Scan two integers (representing number and a position)
-  Print the bit in this position. */
+  // Asking the user to enter a position
+  printf("Please enter a position:\n");
+  scanf("%d", &position);
+  
+  int bit = (number >> position) & 1;
+  // what bit in the position of the number
+  printf("The bit in position %d of number %d is: %d\n", position, number, bit);
+  
+  
+  
+  
   
   // Set bit
   printf("\nSet bit:\n");
