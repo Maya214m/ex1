@@ -92,7 +92,7 @@ int main() {
 
   // Print sum in hex, print results
   printf("The sum in hexadecimal: %X\n", x3);
-  printf("The 3, 5, 7, 11 bits are: %d%d%d%d\n", bit3, bit5, bit7, bit11);
+  printf("The 3,5,7,11 bits are: %d%d%d%d\n", bit3, bit5, bit7, bit11);
  
   printf("Bye!\n");
   
