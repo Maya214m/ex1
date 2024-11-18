@@ -67,7 +67,7 @@ int main() {
   // Check if the number is even or odd
   int isEven = !(number & 1);
 
-  // Print the result: if even then 1, if odd then 0
+  // Print the result: even get 1, odd get 0
   printf("%d\n", isEven);
   
   // 3, 5, 7, 11
