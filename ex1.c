@@ -73,7 +73,7 @@ int main() {
   // 3, 5, 7, 11
   printf("\n3, 5, 7, 11:\n");
   int x1, x2, x3;
-  int bit3, bit5, bit7, bit11, selectedBits;
+  int bit3, bit5, bit7, bit11;
 
   // Get the user to input two numbers, reading it as octal
   printf("Please enter the first number (octal):\n");
