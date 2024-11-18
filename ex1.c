@@ -12,10 +12,10 @@ int main() {
  
   // What bit
   printf("What bit:\n");
-  // Asking the user to enter a number and a position
+  
+  // Get user input for the number and the bit position
   printf("Please enter a number:\n");
   scanf("%d", &number);
-  
   printf("Please enter a position:\n");
   scanf("%d", &position);
   
@@ -25,10 +25,10 @@ int main() {
   
   // Set bit
   printf("\nSet bit:\n");
-  // Asking the user to enter a number and a position
+  
+  // Get user input for the number and the bit position
   printf("Please enter a number:\n");
   scanf("%d", &number);
-
   printf("Please enter a position:\n");
   scanf("%d" ,&position);
 
@@ -45,10 +45,9 @@ int main() {
   // Toggle bit
   printf("\nToggle bit:\n");
  
-  // Asking the user to enter a number and a position
+  // Get user input for the number and the bit position
   printf("Please enter a number:\n");
   scanf("%d" ,&number);
-
   printf("Please enter a position:\n");
   scanf("%d" ,&position);
 
@@ -61,7 +60,7 @@ int main() {
   // Even - Odd
   printf("\nEven - Odd:\n");
   
-  // Asking the user to enter a number
+  // Get the user to input a number
   printf("Please enter a number:\n");
   scanf("%d", &number);
 
@@ -76,10 +75,9 @@ int main() {
   int x1, x2, x3;
   int bit3, bit5, bit7, bit11, selectedBits;
 
-  // Enter two number in octal, reading it as octal
+  // Get the user to input two numbers, reading it as octal
   printf("Please enter the first number (octal):\n");
   scanf("%o", &x1);
-
   printf("Please enter the second number (octal):\n");
   scanf("%o", &x2);
 
